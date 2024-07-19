@@ -10,7 +10,7 @@ import { singlePage } from '../info/Info';
 const links = [
     {
         name: 'Home',
-        to: '',
+        to: 'personal_portfolio',
         active: 'home'
     },
     {
@@ -21,7 +21,7 @@ const links = [
     {
         name: info.initials,
         type: 'initials',
-        to: '',
+        to: 'personal_portfolio',
         active: 'home'
     },
     {

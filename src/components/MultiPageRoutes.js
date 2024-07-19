@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export default function MultiPageRoutes() {
     return (
-        <Router basename="/personal_portfolio">
+        // <Router basename="/personal_portfolio">
             <Routes>
-                <Route exact path={'/'} element={<Home />} />
+                <Route exact path={'/personal_portfolio'} element={<Home />} />
                 <Route exact path={'/about'} element={<About />} />
                 <Route exact path={'/portfolio'} element={<Portfolio />} />
             </Routes>
-        </Router>
+        // </Router>
     )
 }

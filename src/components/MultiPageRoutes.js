@@ -17,9 +17,9 @@ function RedirectHandler() {
 }
 export default function MultiPageRoutes() {
     return (
-         
+ 
         <Routes>
-            <RedirectHandler />
+            {/* <RedirectHandler /> */}
             <Route exact path={'/personal_portfolio'} element={<Home />} />
             <Route exact path={'/about'} element={<About />} />
             <Route exact path={'/portfolio'} element={<Portfolio />} />

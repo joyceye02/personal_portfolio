@@ -17,13 +17,13 @@ function RedirectHandler() {
 }
 export default function MultiPageRoutes() {
     return (
-        <Router>
+         
+        <Routes>
             <RedirectHandler />
-            <Routes>
-                <Route exact path={'/personal_portfolio'} element={<Home />} />
-                <Route exact path={'/about'} element={<About />} />
-                <Route exact path={'/portfolio'} element={<Portfolio />} />
-            </Routes>
-        </Router>
+            <Route exact path={'/personal_portfolio'} element={<Home />} />
+            <Route exact path={'/about'} element={<About />} />
+            <Route exact path={'/portfolio'} element={<Portfolio />} />
+        </Routes>
+       
     )
 }
